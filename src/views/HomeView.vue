@@ -3,7 +3,6 @@
 		<Loader v-if="isLoading" class="offset-md-6" />
 		
 		<AriticleCard v-else v-for="article in data" :article="article" :key="article.id" />
-		{{ data }}
 	</div>
 </template>
 
